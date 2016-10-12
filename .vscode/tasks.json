@@ -1,0 +1,12 @@
+{ "version": "0.1.0"
+, "command": "sh"
+, "isShellCommand": true
+, "showOutput": "always"
+, "args": [ "-c" ]
+, "tasks":
+  [ { "taskName": "build"
+    , "suppressTaskName": true
+    , "args": [ "cd build && make" ]
+    }
+  ]
+}
